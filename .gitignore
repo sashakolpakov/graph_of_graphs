@@ -46,8 +46,11 @@ gog_nauty_bridge.so
 # Locally generated enumeration tables and diagnostics.
 artifacts/
 
-# Rebuildable journal/arXiv upload bundles.
-rule-a-paper/dist/
+# Rebuildable arXiv upload directory and archive.
+/rule-a-paper-arxiv/
+/rule-a-paper-arxiv.tar.gz
+/rule-a-paper/dist/
+rule-a-paper/*.tar.gz
 
 # Set-aside research and preliminary problem tests stay local.
 .research-archive/
@@ -56,6 +59,8 @@ rule-a-paper/dist/
 # Research notes are local; the root README is the repository guide.
 *.md
 !/README.md
+!/rule-a-paper/REPRODUCIBILITY.md
+!/Wolfram/GogFieldDynamics/README.md
 
 # Former exploratory scripts and reports are preserved locally.
 /research/whitehead-topology/

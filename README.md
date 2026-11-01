@@ -45,7 +45,8 @@ Wolfram package; lean/ contains the finite algebraic verification.
 Manuscript PDFs and both notebooks are tracked. LaTeX intermediates,
 generated figure PDFs, submission archives, reference downloads, reasoning
 notes and exploratory scripts remain local. README.md is the repository
-guide and the only tracked Markdown file.
+guide; the paper reproduction notes and Wolfram package documentation live
+beside their sources.
 
 ## Build and reproduce
 
@@ -155,7 +156,7 @@ Both notebooks remain in the repository:
 - [Executable computational notes](whitehead-field-dynamics-computational-notes.nb)
 
 They use Wolfram Language 14.3 or later and the local
-[GogFieldDynamics package](Wolfram/GogFieldDynamics/Kernel/init.wl).
+[GogFieldDynamics package](Wolfram/GogFieldDynamics/README.md).
 The bundled exact models cover N=2,4,6,8 and are checked with:
 
     make notebook-data-check
@@ -177,12 +178,19 @@ notebook changes.
 For the computational companion's deterministic text transcript, run
 scripts/notebook_report_outputs.wls with WolframKernel.
 
-## Submission bundles
+## arXiv submission
 
-    make rule-a-paper-packages
+    make rule-a-paper-submission
 
-This builds the Whitehead figures and manuscript, then writes the
-arXiv source and code archives under rule-a-paper/dist/. Submission archives,
-LaTeX intermediates, downloaded reference copies and working research notes
-remain local. The repository retains manuscript sources and PDFs,
-notebooks and reproducibility dependencies.
+This builds the current Whitehead figures and manuscript and prepares the
+separate rule-a-paper-arxiv/ directory. It contains the manuscript source,
+bibliography, four figure PDFs, generated table, and standalone reproduction
+files under anc/. Compress the contents of that directory for upload, choosing
+local-whitehead-chain.tex as the main file and pdfLaTeX as the compiler.
+Refresh the directory with the same command after editing the paper.
+
+To compress it automatically, run make rule-a-paper-packages. This refreshes
+the directory and writes rule-a-paper-arxiv.tar.gz beside it. Builds use
+temporary directories for LaTeX intermediates. The generated submission
+directory, archives, downloaded reference copies and working research notes
+remain local.

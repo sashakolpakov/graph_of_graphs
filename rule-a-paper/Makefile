@@ -2,14 +2,16 @@ PYTHON ?= python3
 LATEXMK ?= latexmk
 TABLE_JSON := rule-a-enumeration.json
 TABLE_TEX := rule-a-enumeration-table.tex
+ARXIV_ARCHIVE ?= ../rule-a-paper-arxiv.tar.gz
 FIGURE_TEX := fig-whitehead-move.tex fig-two-state-chain.tex \
 	fig-loop-change.tex fig-bridge-resolution.tex
 FIGURE_PDF := $(FIGURE_TEX:.tex=.pdf)
-ANCILLARY := anc/README.md anc/gog_generate.py anc/verify_rule_a.py \
-	anc/build_nauty_bridge.py anc/gog_nauty_bridge.c \
-	anc/render_rule_a_table.py anc/$(TABLE_JSON)
+MANUSCRIPT_FILES := local-whitehead-chain.tex local-whitehead-chain.bib \
+	local-whitehead-chain.bbl $(TABLE_TEX) $(FIGURE_PDF)
+INTERMEDIATE_EXT := aux bcf blg dvi fdb_latexmk fls lof log lot out \
+	run.xml synctex synctex.gz toc xdv
 
-.PHONY: all figures table arxiv packages clean
+.PHONY: all figures table arxiv submission packages clean
 
 all: arxiv
 
@@ -21,26 +23,41 @@ $(TABLE_TEX): $(TABLE_JSON) render_rule_a_table.py
 	$(PYTHON) render_rule_a_table.py $(TABLE_JSON) $(TABLE_TEX)
 
 fig-%.pdf: fig-%.tex
-	$(LATEXMK) -pdf -interaction=nonstopmode -halt-on-error $<
+	@set -eu; \
+	build_dir=$$(mktemp -d); \
+	trap 'rm -rf "$$build_dir"' 0; \
+	$(LATEXMK) -pdf -interaction=nonstopmode -halt-on-error \
+		-outdir="$$build_dir" "$<"; \
+	cp "$$build_dir/$@" "$@"
 
 arxiv: $(TABLE_TEX) $(FIGURE_PDF)
+	@set -eu; \
+	build_dir=$$(mktemp -d); \
+	trap 'rm -rf "$$build_dir"' 0; \
 	$(LATEXMK) -pdf -interaction=nonstopmode -halt-on-error \
-		local-whitehead-chain.tex
+		-outdir="$$build_dir" local-whitehead-chain.tex; \
+	cp "$$build_dir/local-whitehead-chain.pdf" \
+		"$$build_dir/local-whitehead-chain.bbl" .; \
+	rm -f "$(ARXIV_ARCHIVE)"
 
-packages: all
-	mkdir -p dist/arxiv/anc
-	cp local-whitehead-chain.tex local-whitehead-chain.bib \
-		local-whitehead-chain.bbl $(TABLE_TEX) $(FIGURE_PDF) dist/arxiv/
+submission: all
+	@set -eu; \
+	stage_dir=$$(mktemp -d); \
+	trap 'rm -rf "$$stage_dir"' 0; \
+	mkdir "$$stage_dir/anc"; \
+	cp $(MANUSCRIPT_FILES) "$$stage_dir/"; \
 	cp ../gog_generate.py verify_rule_a.py ../build_nauty_bridge.py \
 		../gog_nauty_bridge.c render_rule_a_table.py $(TABLE_JSON) \
-		dist/arxiv/anc/
-	cp ../README.md dist/arxiv/anc/README.md
-	tar -czf dist/local-whitehead-chain-arxiv.tar.gz -C dist/arxiv \
-		local-whitehead-chain.tex local-whitehead-chain.bib \
-		local-whitehead-chain.bbl $(TABLE_TEX) $(FIGURE_PDF) \
-		$(ANCILLARY)
-	tar -czf dist/local-whitehead-chain-code.tar.gz -C dist/arxiv $(ANCILLARY)
+		"$$stage_dir/anc/"; \
+	cp REPRODUCIBILITY.md "$$stage_dir/anc/README.md"; \
+	rm -rf ../rule-a-paper-arxiv; \
+	mv "$$stage_dir" ../rule-a-paper-arxiv
+
+packages: submission
+	COPYFILE_DISABLE=1 tar -czf "$(ARXIV_ARCHIVE)" \
+		-C ../rule-a-paper-arxiv $(MANUSCRIPT_FILES) anc
 
 clean:
-	$(LATEXMK) -c local-whitehead-chain.tex
-	$(LATEXMK) -c $(FIGURE_TEX)
+	rm -f $(foreach stem,local-whitehead-chain $(FIGURE_TEX:.tex=),\
+		$(addprefix $(stem).,$(INTERMEDIATE_EXT))) .DS_Store
+	rm -rf __pycache__

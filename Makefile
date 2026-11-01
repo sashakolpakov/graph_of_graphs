@@ -5,7 +5,8 @@ WOLFRAM_KERNEL ?= /Applications/Wolfram.app/Contents/MacOS/WolframKernel
 .PHONY: all papers check paper computational-notes lean python-check \
 	notebook-data-check notebook notebook-paclet-check notebook-check \
 	computational-notes-notebook computational-notes-notebook-check \
-	rule-a-paper rule-a-paper-packages integral-torsor integral-torsor-check \
+	rule-a-paper rule-a-paper-submission rule-a-paper-packages \
+	integral-torsor integral-torsor-check \
 	outer-space-paper outer-space-check outer-forest-check \
 	bessel-recursion-paper bessel-recursion-check \
 	history-state-paper history-state-check causal-order-paper causal-order-check clean
@@ -27,6 +28,9 @@ computational-notes:
 
 rule-a-paper:
 	$(MAKE) -C rule-a-paper all
+
+rule-a-paper-submission:
+	$(MAKE) -C rule-a-paper submission
 
 rule-a-paper-packages:
 	$(MAKE) -C rule-a-paper packages
