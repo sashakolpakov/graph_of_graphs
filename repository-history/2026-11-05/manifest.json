@@ -1,0 +1,58 @@
+{
+  "format_version": 1,
+  "saved_at_utc": "2026-11-04T23:04:20.595737+00:00",
+  "repositories": {
+    "upstream": "WolframInstitute/graph_of_graphs",
+    "fork": "sashakolpakov/graph_of_graphs"
+  },
+  "files": [
+    {
+      "path": "upstream-repository.json",
+      "source_url": "https://api.github.com/repos/WolframInstitute/graph_of_graphs",
+      "retrieved_at_utc": "2026-11-04T23:04:20.540735+00:00",
+      "sha256": "46cb2400c264374e96db5b357e6af99994329a52b73daf95ac27374ef19a9949",
+      "record_count": 1,
+      "representation": "Selected public repository identity and timestamp fields"
+    },
+    {
+      "path": "upstream-events.json",
+      "source_url": "https://api.github.com/repos/WolframInstitute/graph_of_graphs/events?per_page=100",
+      "retrieved_at_utc": "2026-11-04T23:04:20.595139+00:00",
+      "sha256": "2e8b7f429c1b2427952ed5b334da8622f192dc280b1e2e2d50d646b67fd47275",
+      "record_count": 26,
+      "representation": "All returned pages combined into one JSON array; original event fields retained"
+    },
+    {
+      "path": "upstream-activity.json",
+      "source_url": "https://api.github.com/repos/WolframInstitute/graph_of_graphs/activity?per_page=100",
+      "retrieved_at_utc": "2026-11-04T23:04:20.454093+00:00",
+      "sha256": "27c2a7d4f3f16e25198d0437d81563e780ed716ca093667ccc7db5ea0a90b37d",
+      "record_count": 28,
+      "representation": "All returned pages combined into one JSON array; original event fields retained"
+    },
+    {
+      "path": "fork-repository.json",
+      "source_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs",
+      "retrieved_at_utc": "2026-11-04T23:04:20.490128+00:00",
+      "sha256": "9d3ff7aae129ec6fa46afe3806c7609a26ac3010fb08d210f0b473dd4294b7b2",
+      "record_count": 1,
+      "representation": "Selected public repository identity and timestamp fields"
+    },
+    {
+      "path": "fork-events.json",
+      "source_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/events?per_page=100",
+      "retrieved_at_utc": "2026-11-04T23:04:20.541758+00:00",
+      "sha256": "89c8b92b8bef85e11e36f2c6b5361f15301bf18041af95aa835b81f38e3f32c2",
+      "record_count": 18,
+      "representation": "All returned pages combined into one JSON array; original event fields retained"
+    },
+    {
+      "path": "fork-activity.json",
+      "source_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/activity?per_page=100",
+      "retrieved_at_utc": "2026-11-04T23:04:20.436622+00:00",
+      "sha256": "5e7ce145765c2480cdeb908286ace3b8490ef5355c6a8eabe08ee10bacb442d6",
+      "record_count": 25,
+      "representation": "All returned pages combined into one JSON array; original event fields retained"
+    }
+  ]
+}

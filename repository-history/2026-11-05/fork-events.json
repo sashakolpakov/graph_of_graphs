@@ -1,0 +1,572 @@
+[
+  {
+    "id": "26041834258",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 48609070386,
+      "ref": "refs/heads/main",
+      "head": "7f886063dad7a815eb5f3d4c878ad02fb0d24c4e",
+      "before": "8dcb71f6121879ab35b70d060ebd07b7c347eae1"
+    },
+    "public": true,
+    "created_at": "2026-11-01T20:53:55Z"
+  },
+  {
+    "id": "26031621234",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "ref": "cleanup/arxiv-submission",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/cleanup/arxiv-submission",
+      "master_branch": "main",
+      "description": "Graph of graphs: Whitehead moves on cubic multigraphs, exact enumeration, field dynamics, and Wolfram notebooks.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-11-01T20:43:05Z"
+  },
+  {
+    "id": "26010762059",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "ref": "cleanup/arxiv-submission",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/cleanup/arxiv-submission",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-11-01T20:53:56Z"
+  },
+  {
+    "id": "24855201997",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47186934808,
+      "ref": "refs/heads/main",
+      "head": "ace0834e185f6990e1f6a09a273adf7f4b7e751f",
+      "before": "345ddb70f0c887f520a42d631d769273270c6ecf"
+    },
+    "public": true,
+    "created_at": "2026-10-20T22:01:26Z"
+  },
+  {
+    "id": "24822824955",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47271783852,
+      "ref": "refs/heads/main",
+      "head": "bf28d9659b142daba07db5e7b4645dec9723a9db",
+      "before": "5cc41e5167586f6cdf905067c0bddf1d57267c53"
+    },
+    "public": true,
+    "created_at": "2026-10-21T14:40:09Z"
+  },
+  {
+    "id": "24816125097",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47164958979,
+      "ref": "refs/heads/main",
+      "head": "f717f20d1ecd97b80ad97d3d7d400cfec08e89fb",
+      "before": "60bd6404d0f440126677e338d2044ae121b188a7"
+    },
+    "public": true,
+    "created_at": "2026-10-20T18:10:38Z"
+  },
+  {
+    "id": "24803042769",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47154338997,
+      "ref": "refs/heads/main",
+      "head": "70845cb0c77e4bf87b646f6893432860f717ffc6",
+      "before": "7c1f83bd50544d117dea2fa1a5be9993957daa60"
+    },
+    "public": true,
+    "created_at": "2026-10-20T16:25:30Z"
+  },
+  {
+    "id": "24797223756",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47149702169,
+      "ref": "refs/heads/main",
+      "head": "7c1f83bd50544d117dea2fa1a5be9993957daa60",
+      "before": "87b81e22eac2ee3d59c4fe3eb27aa3eed257f05a"
+    },
+    "public": true,
+    "created_at": "2026-10-20T15:42:01Z"
+  },
+  {
+    "id": "24789675683",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47145535083,
+      "ref": "refs/heads/main",
+      "head": "87b81e22eac2ee3d59c4fe3eb27aa3eed257f05a",
+      "before": "901bb419e2b50d2b62262d5eb7c5c4688970a2a3"
+    },
+    "public": true,
+    "created_at": "2026-10-20T15:03:59Z"
+  },
+  {
+    "id": "24776953662",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47132703064,
+      "ref": "refs/heads/main",
+      "head": "e8d1cf12a08cc3e8b1e5fb32286c2475f0683771",
+      "before": "dd92c47db3a1f66a9bb486f7073ee5759ad312a0"
+    },
+    "public": true,
+    "created_at": "2026-10-20T13:07:18Z"
+  },
+  {
+    "id": "24771704045",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47129066833,
+      "ref": "refs/heads/main",
+      "head": "dd92c47db3a1f66a9bb486f7073ee5759ad312a0",
+      "before": "4ad58ddcf6208d5f7f20b9d103b6ac7d82d857ee"
+    },
+    "public": true,
+    "created_at": "2026-10-20T12:31:44Z"
+  },
+  {
+    "id": "24721986421",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47272145490,
+      "ref": "refs/heads/main",
+      "head": "daa94c3d69f08acab1004188f4cd719f3f0b208a",
+      "before": "bf28d9659b142daba07db5e7b4645dec9723a9db"
+    },
+    "public": true,
+    "created_at": "2026-10-21T14:43:25Z"
+  },
+  {
+    "id": "17813599914",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-10-21T12:48:50Z"
+  },
+  {
+    "id": "24646949204",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47170336594,
+      "ref": "refs/heads/main",
+      "head": "fcc704a596c7f1837a77e97e29e16d3a9d8382d2",
+      "before": "f717f20d1ecd97b80ad97d3d7d400cfec08e89fb"
+    },
+    "public": true,
+    "created_at": "2026-10-20T19:04:35Z"
+  },
+  {
+    "id": "24637916264",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47156931471,
+      "ref": "refs/heads/main",
+      "head": "d433d43df9e77007cbc8b5d98f0ecad68878c7f0",
+      "before": "70845cb0c77e4bf87b646f6893432860f717ffc6"
+    },
+    "public": true,
+    "created_at": "2026-10-20T16:50:44Z"
+  },
+  {
+    "id": "24621160311",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47055220571,
+      "ref": "refs/heads/main",
+      "head": "551c3f11b06f75ab66341d3dc24b4a650f4a23ec",
+      "before": "72568b9339d26714b9f4b818223d04bcba317f57"
+    },
+    "public": true,
+    "created_at": "2026-10-19T20:49:57Z"
+  },
+  {
+    "id": "24561627584",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1426077831,
+      "name": "sashakolpakov/graph_of_graphs",
+      "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs"
+    },
+    "payload": {
+      "repository_id": 1426077831,
+      "push_id": 47055151023,
+      "ref": "refs/heads/main",
+      "head": "72568b9339d26714b9f4b818223d04bcba317f57",
+      "before": "235597d22bc73b230c43df475912d586a7bfe0ac"
+    },
+    "public": true,
+    "created_at": "2026-10-19T20:49:10Z"
+  },
+  {
+    "id": "17637525871",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 5302373,
+      "login": "sashakolpakov",
+      "display_login": "sashakolpakov",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sashakolpakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5302373?"
+    },
+    "repo": {
+      "id": 1380016975,
+      "name": "WolframInstitute/graph_of_graphs",
+      "url": "https://api.github.com/repos/WolframInstitute/graph_of_graphs"
+    },
+    "payload": {
+      "action": "forked",
+      "forkee": {
+        "id": 1426077831,
+        "node_id": "R_kgDOVQA4hw",
+        "name": "graph_of_graphs",
+        "full_name": "sashakolpakov/graph_of_graphs",
+        "private": false,
+        "owner": {
+          "login": "sashakolpakov",
+          "id": 5302373,
+          "node_id": "MDQ6VXNlcjUzMDIzNzM=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/5302373?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sashakolpakov",
+          "html_url": "https://github.com/sashakolpakov",
+          "followers_url": "https://api.github.com/users/sashakolpakov/followers",
+          "following_url": "https://api.github.com/users/sashakolpakov/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sashakolpakov/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sashakolpakov/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sashakolpakov/subscriptions",
+          "organizations_url": "https://api.github.com/users/sashakolpakov/orgs",
+          "repos_url": "https://api.github.com/users/sashakolpakov/repos",
+          "events_url": "https://api.github.com/users/sashakolpakov/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sashakolpakov/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/sashakolpakov/graph_of_graphs",
+        "description": "Graph of graphs: Whitehead moves on cubic multigraphs, exact enumeration, field dynamics, and Wolfram notebooks.",
+        "fork": true,
+        "url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs",
+        "forks_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/forks",
+        "keys_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/teams",
+        "hooks_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/hooks",
+        "issue_events_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/events",
+        "assignees_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/tags",
+        "blobs_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/languages",
+        "stargazers_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/stargazers",
+        "contributors_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/contributors",
+        "subscribers_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/subscribers",
+        "subscription_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/subscription",
+        "commits_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/merges",
+        "archive_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/downloads",
+        "issues_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/labels{/name}",
+        "releases_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/sashakolpakov/graph_of_graphs/deployments",
+        "created_at": "2026-10-19T19:26:14Z",
+        "updated_at": "2026-11-01T20:53:58Z",
+        "pushed_at": "2026-11-01T20:53:56Z",
+        "git_url": "git://github.com/sashakolpakov/graph_of_graphs.git",
+        "ssh_url": "git@github.com:sashakolpakov/graph_of_graphs.git",
+        "clone_url": "https://github.com/sashakolpakov/graph_of_graphs.git",
+        "svn_url": "https://github.com/sashakolpakov/graph_of_graphs",
+        "homepage": null,
+        "size": 5057,
+        "stargazers_count": 1,
+        "watchers_count": 1,
+        "language": "Wolfram Language",
+        "has_issues": false,
+        "has_projects": true,
+        "has_downloads": false,
+        "has_wiki": false,
+        "has_pages": false,
+        "has_discussions": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "license": null,
+        "allow_forking": true,
+        "is_template": false,
+        "web_commit_signoff_required": false,
+        "has_pull_requests": true,
+        "pull_request_creation_policy": "all",
+        "topics": [],
+        "visibility": "public",
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 1,
+        "default_branch": "main"
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-19T19:26:14Z",
+    "org": {
+      "id": 124624334,
+      "login": "WolframInstitute",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/WolframInstitute",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124624334?"
+    }
+  }
+]
