@@ -2,6 +2,10 @@ GitHub repository history snapshot
 
 Saved on 5 November 2026. Exact retrieval times and source URLs are in manifest.json.
 
+Starting point: the WI repository was created public on 21 September 2026.
+17:26:04 CEST: main branch was created; actor BradJanes, who copied the files
+over from sashakolpakov's private repository.
+
 upstream-* records WolframInstitute/graph_of_graphs.
 fork-* records sashakolpakov/graph_of_graphs.
 
